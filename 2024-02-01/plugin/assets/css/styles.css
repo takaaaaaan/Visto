@@ -1,0 +1,95 @@
+.hello-div {
+  flex: 0 auto;
+  height: 50px;
+  padding-bottom: 15px;
+  transition: opacity 0.3s;
+  background-color: white;
+  padding: 5px;
+}
+.custom-iframe-container{
+  background-color : #f2f2f2;
+  width: var(--rhs-width);
+  height :870px;
+}
+.custom-iframe{
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; /* 中央揃え */
+}
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+#settingsButton,
+#toggleViewButton {
+  margin-top: 5px;
+}
+#dataDisplay {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+h1 {
+  color: #333;
+}
+
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.green-card {
+  background-color: #4caf50;
+  padding: 10px 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+.green-card-2 {
+  background-color: #4caf50;
+  padding: 6px 10px 6px 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+.green-card:active {
+  background-color: #45a049;
+}
+.green-card-2:active {
+  background-color: #45a049;
+}
+span {
+  color: white;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+}
+button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}

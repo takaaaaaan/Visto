@@ -1,0 +1,187 @@
+body {
+  background-color: #ffffff;
+  width: 372px;
+}
+main {
+  display: flex;
+  width: 100%; /* 幅を100%に設定 */
+}
+
+.row-2 {
+  width: 100%; /* 幅を100%に設定して、親要素に合わせる */
+  display: flex;
+  justify-content: center; /* 水平方向に中心に配置 */
+  flex-wrap: wrap;
+  margin: 10px 0; /* 上下のマージンを追加 */
+}
+.col-offset-1 {
+  width: calc(100% - 10%); /* 全体から8%引いた幅を計算 */
+  margin-left: 10%; /* 左側に8%のマージンを設定 */
+}
+
+.overlap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 15px #a1a1a1e6, inset -1px -1px 2px #a1a1a180,
+    inset 1px 1px 2px #ffffff4c; /* 下部の影だけを指定 */
+}
+
+.v-icon {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  z-index: 100;
+}
+
+.frame {
+  width: 43px;
+  height: 43px;
+}
+.overlap-group-input {
+  width: 80%;
+  height: 36px;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 8px 8px 20px #878787e6, -8px -8px 16px #ffffffe6,
+    8px -8px 16px #87878733, -8px 8px 16px #87878733,
+    inset -1px -1px 2px #87878780, inset 1px 1px 2px #ffffff4c;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 20px;
+  color: #000000;
+  text-align: center; /* テキストを中央揃えに */
+}
+
+.overlap-group-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.overlap-group {
+  display: flex;
+  align-items: center; /* 横軸中央揃え */
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+  margin-top: 10px;
+  width: 80%;
+  height: 38px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 8px 8px 20px #878787e6, -8px -8px 16px #ffffffe6,
+    8px -8px 16px #87878733, -8px 8px 16px #87878733,
+    inset -1px -1px 2px #87878780, inset 1px 1px 2px #ffffff4c;
+}
+.img,
+.text-wrapper,
+.x,
+.check {
+  flex-grow: 0; /* 余分なスペースを占めない */
+  flex-shrink: 0; /* コンテナが縮小しても縮まない */
+  flex-basis: auto; /* 要素の内容に基づいてサイズを決定 */
+}
+.x,
+.check {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.check {
+  background-color: #55cf5b;
+  box-shadow: 53px 53px 133px #225324e6, -53px -53px 106px #88ff92e6,
+    53px -53px 106px #22532433, -53px 53px 106px #22532433,
+    inset -2px -2px 3px #22532480, inset 2px 2px 3px #88ff924c;
+}
+.x {
+  background-color: #ff0000;
+  box-shadow: 53px 53px 133px #532222e6, -53px -53px 106px #ff8888e6,
+    53px -53px 106px #53222233, -53px 53px 106px #53222233,
+    inset -2px -2px 3px #53222280, inset 2px 2px 3px #ff88884c;
+}
+.vector {
+  width: 20px;
+  height: 17px;
+  margin-top: 6px;
+  margin-left: 3px;
+}
+.text-wrapper {
+  flex-grow: 1; /* 余分なスペースを占めるように設定 */
+  text-align: left; /* テキストを左揃えに */
+  margin-right: 8px; /* テキストと画像の間のスペース */
+  width: 78px;
+  height: 22px;
+  margin-right: 28px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1a0dab;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+.img {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+
+/* switch */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(25px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

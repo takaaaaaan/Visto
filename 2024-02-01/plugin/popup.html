@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./assets/css/popup-style.css" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <!-- Firebaseライブラリのスクリプトのリンク -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+    <title>e</title>
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var jsonData = [
+                { "name": "US", "image": "assets/img/popup/US.svg", "checked": false },
+                { "name": "Japan", "image": "assets/img/popup/Japan.svg", "checked": true }
+            ];
+
+            var mainElement = document.querySelector('main .row-2');
+
+            jsonData.forEach(function (country) {
+                var colDiv = document.createElement('div');
+                colDiv.className = 'col-offset-1';
+
+                var overlapGroupDiv = document.createElement('div');
+                overlapGroupDiv.className = 'overlap-group';
+
+                var imgElement = document.createElement('img');
+                imgElement.className = 'img';
+                imgElement.src = country.image;
+
+                var textWrapperDiv = document.createElement('div');
+                textWrapperDiv.className = 'text-wrapper';
+                textWrapperDiv.textContent = country.name;
+
+                var labelElement = document.createElement('label');
+                labelElement.className = 'switch';
+
+                var inputElement = document.createElement('input');
+                inputElement.type = 'checkbox';
+                inputElement.checked = country.checked;
+
+                var spanElement = document.createElement('span');
+                spanElement.className = 'slider round';
+
+                labelElement.appendChild(inputElement);
+                labelElement.appendChild(spanElement);
+
+                overlapGroupDiv.appendChild(imgElement);
+                overlapGroupDiv.appendChild(textWrapperDiv);
+                overlapGroupDiv.appendChild(labelElement);
+
+                colDiv.appendChild(overlapGroupDiv);
+
+                mainElement.appendChild(colDiv);
+            });
+        });
+
+    </script> -->
+</head>
+
+<body>
+    <div class="row">
+        <header>
+            <div class="overlap">
+                <div class="pd-5">
+                    <img class="v-icon" src="assets/img/popup/V.svg" />
+                </div>
+                <input class="overlap-group-input" type="text" placeholder="국가를 선택해주세요" />
+                <div class="pd-5">
+                    <img class="frame" src="assets/img/popup/line.svg" />
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="row-2" id="country-list">
+                <!-- <div class="col-offset-1">
+                    <div class="overlap-group">
+                        <img class="img" src="assets/img/popup/US.svg" />
+                        <div class="text-wrapper">US</div>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div> -->
+                <!-- <div class="col-offset-1">
+                    <div class="overlap-group">
+                        <img class="img" src="assets/img/popup/US.svg" />
+                        <div class="text-wrapper">US</div>
+                        <div class="x">
+                            <img class="vector" src="assets/img/popup/x.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-offset-1">
+                    <div class="overlap-group">
+                        <img class="img" src="assets/img/popup/Japan.svg" />
+                        <div class="text-wrapper">Japan</div>
+                        <div class="check">
+                            <img class="vector" src="assets/img/popup/check.svg" />
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </main>
+    </div>
+    <script src="./assets/js/popup.js"></script>
+</body>
+
+</html>

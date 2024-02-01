@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>国旗のリスト</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="seach">
+        <input type="text" id="searchInput" placeholder="国名で検索..." />
+      </div>
+    </header>
+    <main>
+      <ul id="flagList">
+        <!-- JSONデータから国旗リストを動的に生成 -->
+      </ul>
+    </main>
+    <script>
+      // JSONデータの例
+      const flags = [
+        { emoji: "🇯🇵", name: "日本" },
+        { emoji: "🇰🇷", name: "韓国" },
+        // 他の国のデータを追加
+      ];
+
+      // 国旗リストを動的に生成する関数
+      function generateFlagList(data) {
+        const list = document.getElementById("flagList");
+        list.innerHTML = ""; // 既存のリストをクリア
+        data.forEach((flag) => {
+          const item = document.createElement("li");
+          item.className = "flagItem";
+          item.innerHTML = `<span class="flagEmoji">${flag.emoji}</span><span class="flagName">${flag.name}</span>`;
+          list.appendChild(item);
+        });
+      }
+
+      // 検索機能
+      document
+        .getElementById("searchInput")
+        .addEventListener("input", function (e) {
+          const filteredFlags = flags.filter((flag) =>
+            flag.name.includes(e.target.value)
+          );
+          generateFlagList(filteredFlags);
+        });
+
+      // 初期表示
+      generateFlagList(flags);
+    </script>
+  </body>
+</html>

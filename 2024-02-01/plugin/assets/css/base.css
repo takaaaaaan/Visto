@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.popup {
+  width: 300px;
+  height: 500px;
+}
+.main {
+  display: flex;
+  /* flex-direction: column; */
+  /* 子要素を縦方向に並べる */
+  flex-direction: row;
+  /* align-items: center; */
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.pd-0 {
+  padding: auto;
+}
+.pd-2 {
+  padding: 0 2px 0 2px;
+}
+.pd-5 {
+  padding: 0 5px 0 5px;
+}
+.pd-10 {
+  padding: 0 10px 0 10px;
+}
+.pd-20 {
+  padding: 0 20px 0 20px;
+}
+.col-0 {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}

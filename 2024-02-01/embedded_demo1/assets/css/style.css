@@ -1,0 +1,994 @@
+.bady,
+.bady * {
+  box-sizing: border-box;
+}
+.bady {
+  background: #ffffff;
+  width: 372px;
+  height: 847px;
+  position: relative;
+  overflow: hidden;
+}
+.header {
+  background: #ffffff;
+  width: 372px;
+  height: 55px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 6px 6px 15px 0px rgba(161, 161, 161, 0.9),
+    -6px -6px 12px 0px rgba(255, 255, 255, 0.9),
+    6px -6px 12px 0px rgba(161, 161, 161, 0.2),
+    -6px 6px 12px 0px rgba(161, 161, 161, 0.2),
+    inset -1px -1px 2px 0px rgba(161, 161, 161, 0.5),
+    inset 1px 1px 2px 0px rgba(255, 255, 255, 0.3);
+}
+.v-icon {
+  width: 81px;
+  height: 81px;
+  position: absolute;
+  left: -7px;
+  top: -12px;
+  object-fit: cover;
+}
+.search {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 245px;
+  height: 46px;
+  position: absolute;
+  left: calc(50% - 112px);
+  top: 4px;
+  box-shadow: 0px 2px 5px 1px rgba(64, 60, 67, 0.16);
+  overflow: hidden;
+}
+.component-3 {
+  width: 60px;
+  height: 28.59px;
+  position: absolute;
+  left: 173px;
+  top: 9px;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 76.67%;
+  left: 0%;
+  width: 23.33%;
+  bottom: 23.05%;
+  top: 27.98%;
+  height: 48.97%;
+  overflow: visible;
+}
+.span-acr-add {
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 0px 0px 0px 1px;
+  position: absolute;
+  right: 53.33%;
+  left: 45%;
+  width: 1.67%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.svg {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 58.33%;
+  width: 41.67%;
+  bottom: 5.56%;
+  top: 7%;
+  height: 87.44%;
+  overflow: visible;
+}
+.button-about-this-result-svg {
+  height: auto;
+  position: absolute;
+  right: 9px;
+  left: 323px;
+  bottom: 7px;
+  top: 8px;
+  overflow: visible;
+}
+.navigation {
+  height: 40px;
+  position: absolute;
+  right: -697px;
+  left: 8px;
+  top: 61px;
+}
+.link {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 64.69px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 20px);
+}
+.login {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 34.89px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link2 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 75.86px;
+  height: 40px;
+  position: absolute;
+  left: 70.69px;
+  top: calc(50% - 20px);
+}
+.images {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 13.890625px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 46.06px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link3 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 72.86px;
+  height: 40px;
+  position: absolute;
+  left: 152.55px;
+  top: calc(50% - 20px);
+}
+.videos {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 43.06px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link4 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 110.8px;
+  height: 40px;
+  position: absolute;
+  left: 231.41px;
+  top: calc(50% - 20px);
+}
+.perspectives {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 81px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link5 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 65.02px;
+  height: 40px;
+  position: absolute;
+  left: 348.2px;
+  top: calc(50% - 20px);
+}
+.news {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 35.22px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link6 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 81.83px;
+  height: 40px;
+  position: absolute;
+  left: 419.22px;
+  top: calc(50% - 18px);
+}
+.console {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 52.03px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link7 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 76.38px;
+  height: 40px;
+  position: absolute;
+  left: 507.05px;
+  top: calc(50% - 20px);
+}
+.tutorial {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 13.78125px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 46.58px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link8 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 56.06px;
+  height: 40px;
+  position: absolute;
+  left: 589.42px;
+  top: calc(50% - 20px);
+}
+.app {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 26.26px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link9 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dadce0;
+  border-width: 1px;
+  width: 93.59px;
+  height: 40px;
+  position: absolute;
+  left: 651.48px;
+  top: calc(50% - 20px);
+}
+.download {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 11.5px;
+  width: 63.79px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.article {
+  position: absolute;
+  inset: 0;
+}
+.frame-2 {
+  background: #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  right: 4.43%;
+  left: 3.69%;
+  width: 91.88%;
+  bottom: -8.15%;
+  top: 90.67%;
+  height: 17.47%;
+  box-shadow: 8px 8px 20px 0px rgba(140, 140, 140, 0.9),
+    -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
+    8px -8px 16px 0px rgba(140, 140, 140, 0.2),
+    -8px 8px 16px 0px rgba(140, 140, 140, 0.2),
+    inset -1px -1px 2px 0px rgba(140, 140, 140, 0.5),
+    inset 1px 1px 2px 0px rgba(255, 255, 255, 0.3);
+}
+.div-n-54-p-nb {
+  height: 116.75px;
+  position: absolute;
+  right: 9.8px;
+  left: 12px;
+  top: 13px;
+  overflow: hidden;
+}
+.div {
+  height: 72.53px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.link-heading-3-firebase {
+  color: #1a0dab;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 45.54px;
+  width: 71.47px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-about-this-result-svg2 {
+  height: auto;
+  position: absolute;
+  right: 26.73px;
+  left: 275.2730712890625px;
+  bottom: 32.53px;
+  top: 22px;
+  overflow: visible;
+}
+.div-vwi-c-3-b {
+  height: 44.22px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 72.54px;
+  overflow: hidden;
+}
+.dec-5-2023-firebase-java-script-library-for-web-and-node-js-latest-version-10-7-1-last-published-a-month-ago-start-using-firebase-in-your-project {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 565.95px;
+  height: 38.11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dec-5-2023-firebase-java-script-library-for-web-and-node-js-latest-version-10-7-1-last-published-a-month-ago-start-using-firebase-in-your-project-span {
+  color: #70757a;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.dec-5-2023-firebase-java-script-library-for-web-and-node-js-latest-version-10-7-1-last-published-a-month-ago-start-using-firebase-in-your-project-span2 {
+  color: #5f6368;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 700;
+}
+.dec-5-2023-firebase-java-script-library-for-web-and-node-js-latest-version-10-7-1-last-published-a-month-ago-start-using-firebase-in-your-project-span3 {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.dec-5-2023-firebase-java-script-library-for-web-and-node-js-latest-version-10-7-1-last-published-a-month-ago-start-using-firebase-in-your-project-span4 {
+  color: #5f6368;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 700;
+}
+.dec-5-2023-firebase-java-script-library-for-web-and-node-js-latest-version-10-7-1-last-published-a-month-ago-start-using-firebase-in-your-project-span5 {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.span-h-9-lube {
+  background: #f1f3f4;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #ecedef;
+  border-width: 1px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 53.38px);
+}
+.image {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.npmjs {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 47.8px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  width: 241px;
+  height: 18px;
+  position: absolute;
+  left: 40.27px;
+  top: calc(50% - 38.38px);
+  overflow: hidden;
+}
+.https-www-npmjs-com-package-firebase {
+  color: #4d5156;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 235.54px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-22 {
+  background: #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  right: 4.43%;
+  left: 3.69%;
+  width: 91.88%;
+  bottom: 11.22%;
+  top: 71.31%;
+  height: 17.47%;
+  box-shadow: 8px 8px 20px 0px rgba(140, 140, 140, 0.9),
+    -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
+    8px -8px 16px 0px rgba(140, 140, 140, 0.2),
+    -8px 8px 16px 0px rgba(140, 140, 140, 0.2),
+    inset -1px -1px 2px 0px rgba(140, 140, 140, 0.5),
+    inset 1px 1px 2px 0px rgba(255, 255, 255, 0.3);
+}
+.div-n-54-p-nb2 {
+  height: 116.75px;
+  position: absolute;
+  right: 10.8px;
+  left: 10px;
+  top: 16px;
+  overflow: hidden;
+}
+.link-heading-3-firebase2 {
+  color: #1a0dab;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 45.54px;
+  width: 78.13px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-about-this-result-svg3 {
+  height: auto;
+  position: absolute;
+  right: 167.73px;
+  left: 135.2730712890625px;
+  bottom: 32.53px;
+  top: 22px;
+  overflow: visible;
+}
+.make-your-app-the-best-it-can-be-with-a-platform-that-helps-throughout-your-app-business-s-journey-releases-firebase-release {
+  color: #4d5156;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 574.11px;
+  height: 38.11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.x-firebase {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 75.8px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text2 {
+  width: 101px;
+  height: 18px;
+  position: absolute;
+  left: 40.27px;
+  top: calc(50% - 38.38px);
+  overflow: hidden;
+}
+._179-8-k-followers {
+  color: #4d5156;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 96.97px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-3 {
+  background: #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  right: 4.43%;
+  left: 3.69%;
+  width: 91.88%;
+  bottom: 30.58%;
+  top: 51.95%;
+  height: 17.47%;
+  box-shadow: 8px 8px 20px 0px rgba(140, 140, 140, 0.9),
+    -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
+    8px -8px 16px 0px rgba(140, 140, 140, 0.2),
+    -8px 8px 16px 0px rgba(140, 140, 140, 0.2),
+    inset -1px -1px 2px 0px rgba(140, 140, 140, 0.5),
+    inset 1px 1px 2px 0px rgba(255, 255, 255, 0.3);
+}
+.div-n-54-p-nb3 {
+  height: 117px;
+  position: absolute;
+  right: 9.8px;
+  left: 10px;
+  top: 16px;
+  overflow: hidden;
+}
+.button-about-this-result-svg4 {
+  height: auto;
+  position: absolute;
+  right: 109.73px;
+  left: 194.2730712890625px;
+  bottom: 32.53px;
+  top: 22px;
+  overflow: visible;
+}
+.collection-of-sample-apps-showcasing-popular-use-cases-using-cloud-functions-for-firebase-java-script-11-9-k-4-k-quickstart-unity-quickstart-unity-public {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 583.09px;
+  height: 38.11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.collection-of-sample-apps-showcasing-popular-use-cases-using-cloud-functions-for-firebase-java-script-11-9-k-4-k-quickstart-unity-quickstart-unity-public-span {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.collection-of-sample-apps-showcasing-popular-use-cases-using-cloud-functions-for-firebase-java-script-11-9-k-4-k-quickstart-unity-quickstart-unity-public-span2 {
+  color: #5f6368;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 700;
+}
+.collection-of-sample-apps-showcasing-popular-use-cases-using-cloud-functions-for-firebase-java-script-11-9-k-4-k-quickstart-unity-quickstart-unity-public-span3 {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.span-h-9-lube2 {
+  background: #f1f3f4;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #ecedef;
+  border-width: 1px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 52.5px);
+}
+.git-hub {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 43.91px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text3 {
+  width: 156px;
+  height: 18px;
+  position: absolute;
+  left: 40.27px;
+  top: calc(50% - 37.5px);
+  overflow: hidden;
+}
+.https-github-com-firebase {
+  color: #4d5156;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 151.73px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-23 {
+  background: #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  right: 4.43%;
+  left: 3.69%;
+  width: 91.88%;
+  bottom: 49.94%;
+  top: 32.59%;
+  height: 17.47%;
+  box-shadow: 8px 8px 20px 0px rgba(140, 140, 140, 0.9),
+    -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
+    8px -8px 16px 0px rgba(140, 140, 140, 0.2),
+    -8px 8px 16px 0px rgba(140, 140, 140, 0.2),
+    inset -1px -1px 2px 0px rgba(140, 140, 140, 0.5),
+    inset 1px 1px 2px 0px rgba(255, 255, 255, 0.3);
+}
+.div-n-54-p-nb4 {
+  height: 117px;
+  position: absolute;
+  right: 8.8px;
+  left: 8px;
+  top: 16px;
+  overflow: hidden;
+}
+.button-about-this-result-svg5 {
+  height: auto;
+  position: absolute;
+  right: 166.73px;
+  left: 140.2730712890625px;
+  bottom: 32.53px;
+  top: 22px;
+  overflow: visible;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 588.08px;
+  height: 38.11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better-span {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better-span2 {
+  color: #5f6368;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 700;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better-span3 {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better-span4 {
+  color: #5f6368;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 700;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better-span5 {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better-span6 {
+  color: #5f6368;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 700;
+}
+.the-you-tube-channel-for-all-things-firebase-learn-how-to-build-awesome-apps-with-hands-on-tutorials-from-the-firebase-team-firebase-helps-you-build-better-span7 {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.you-tube-firebase {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 121.55px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text4 {
+  width: 102px;
+  height: 18px;
+  position: absolute;
+  left: 40.27px;
+  top: calc(50% - 37.5px);
+  overflow: hidden;
+}
+._371-3-k-followers {
+  color: #4d5156;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 96.97px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-24 {
+  background: #ffffff;
+  border-radius: 20px;
+  position: absolute;
+  right: 4.43%;
+  left: 3.69%;
+  width: 91.88%;
+  bottom: 69.3%;
+  top: 13.22%;
+  height: 17.47%;
+  box-shadow: 8px 8px 20px 0px rgba(140, 140, 140, 0.9),
+    -8px -8px 16px 0px rgba(255, 255, 255, 0.9),
+    8px -8px 16px 0px rgba(140, 140, 140, 0.2),
+    -8px 8px 16px 0px rgba(140, 140, 140, 0.2),
+    inset -1px -1px 2px 0px rgba(140, 140, 140, 0.5),
+    inset 1px 1px 2px 0px rgba(255, 255, 255, 0.3);
+}
+.div-n-54-p-nb5 {
+  height: 117px;
+  position: absolute;
+  right: 7.8px;
+  left: 8px;
+  top: 16px;
+  overflow: hidden;
+}
+.button-about-this-result-svg6 {
+  height: auto;
+  position: absolute;
+  right: 58.73px;
+  left: 249.2730712890625px;
+  bottom: 32.53px;
+  top: 22px;
+  overflow: visible;
+}
+.emphasis-firebase {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  width: 551.98px;
+  height: 38.11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.emphasis-firebase-span {
+  color: #5f6368;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 700;
+}
+.emphasis-firebase-span2 {
+  color: #4d5156;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22.12px;
+  font-weight: 400;
+}
+.wikipedia {
+  color: #202124;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  width: 61.09px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text5 {
+  width: 216px;
+  height: 18px;
+  position: absolute;
+  left: 40px;
+  top: calc(50% - 37.5px);
+  overflow: hidden;
+}
+.https-en-wikipedia-org-wiki-firebase {
+  color: #4d5156;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 211.79px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
