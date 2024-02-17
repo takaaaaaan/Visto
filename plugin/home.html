@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Googleログインのデモ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap">
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+        }
+
+        h2 {
+            color: #444;
+            margin-bottom: 24px;
+        }
+
+        button {
+            background-color: #4285F4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #357ae8;
+        }
+    </style>
+    <script>
+        // Firebaseの設定
+        var firebaseConfig = {
+            apiKey: "AIzaSyCk62A_YJQxhPI7QmHt5x7BFkV3EVVLjOc",
+            authDomain: "kpmg-39cf2.firebaseapp.com",
+            databaseURL: "https://kpmg-39cf2-default-rtdb.firebaseio.com",
+            projectId: "kpmg-39cf2",
+            storageBucket: "kpmg-39cf2.appspot.com",
+            messagingSenderId: "908621565003",
+            appId: "1:908621565003:web:9160de8debf11716a1d1ce",
+            measurementId: "G-Y7B6GEB0LM"
+        };
+        // Firebaseを初期化
+        firebase.initializeApp(firebaseConfig);
+
+        // Googleログイン
+        function googleLogin() {
+            var provider = new firebase.auth.GoogleAuthProvider();
+            firebase.auth()
+                .signInWithPopup(provider)
+                .then((result) => {
+                    var user = result.user;
+                    console.log("ログイン成功:", user.displayName);
+                }).catch((error) => {
+                    console.log("ログイン失敗:", error);
+                });
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <h2>Googleログインデモ</h2>
+        <button onclick="googleLogin()">Googleでログイン</button>
+    </div>
+</body>
+
+</html>

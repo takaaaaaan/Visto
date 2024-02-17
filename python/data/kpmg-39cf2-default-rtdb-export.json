@@ -1,0 +1,286 @@
+{
+  "searchResults": {
+    "01": {
+      "EN": {
+        "data": {
+          "context": {
+            "title": "US"
+          },
+          "items": [
+            {
+              "cacheId": "DpKyeI44BEoJ",
+              "displayLink": "www.youtube.com",
+              "formattedUrl": "https://www.youtube.com/watch?v=d5RqOZ51Kto",
+              "htmlFormattedUrl": "https://www.youtube.com/watch?v=d5RqOZ51Kto",
+              "htmlSnippet": "Dec 9, 2019 <b>...</b> <b>Concealed Gun Detection</b> video displays how a <b>thermal camera</b> connected to Athena Security computer vision system that can detect a gun that&nbsp;...",
+              "htmlTitle": "<b>Thermal</b> Demo video for <b>gun detection</b> that is <b>concealed weapons</b> ...",
+              "kind": "customsearch#result",
+              "link": "https://www.youtube.com/watch?v=d5RqOZ51Kto",
+              "pagemap": {
+                "cse_image": [
+                  {
+                    "src": "https://i.ytimg.com/vi/tH9UKdpSdag/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCLmvFxT78ZXHS3rVeQBDz2Qe79Gw"
+                  }
+                ],
+                "cse_thumbnail": [
+                  {
+                    "height": "168",
+                    "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-NwIuZIDHVC2EwKle1GydwzMdBGJ6J8InlV54uiDqiKIUfdoYKIvYyNY",
+                    "width": "299"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "apple-itunes-app": "app-id=544007664, app-argument=https://m.youtube.com/watch?v=d5RqOZ51Kto&referring_app=com.apple.mobilesafari-smartbanner, affiliate-data=ct=smart_app_banner_polymer&pt=9008",
+                    "og:url": "https://www.youtube.com/watch?v=d5RqOZ51Kto",
+                    "theme-color": "rgba(0, 0, 0, 0)",
+                    "twitter:url": "https://www.youtube.com/watch?v=d5RqOZ51Kto",
+                    "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,"
+                  }
+                ]
+              },
+              "snippet": "Dec 9, 2019 ... Concealed Gun Detection video displays how a thermal camera connected to Athena Security computer vision system that can detect a gun that ...",
+              "title": "Thermal Demo video for gun detection that is concealed weapons ..."
+            }
+          ],
+          "kind": "customsearch#search",
+          "queries": {
+            "nextPage": [
+              {
+                "count": 1,
+                "cx": "c3ea97b9d04794f5a",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "searchTerms": "Thermal Imaging Concealed Weapon Detection",
+                "startIndex": 2,
+                "title": "Google Custom Search - Thermal Imaging Concealed Weapon Detection",
+                "totalResults": "6790000"
+              }
+            ],
+            "request": [
+              {
+                "count": 1,
+                "cx": "c3ea97b9d04794f5a",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "searchTerms": "Thermal Imaging Concealed Weapon Detection",
+                "startIndex": 1,
+                "title": "Google Custom Search - Thermal Imaging Concealed Weapon Detection",
+                "totalResults": "6790000"
+              }
+            ]
+          },
+          "searchInformation": {
+            "formattedSearchTime": "0.60",
+            "formattedTotalResults": "6,790,000",
+            "searchTime": 0.604919,
+            "totalResults": "6790000"
+          },
+          "url": {
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+            "type": "application/json"
+          }
+        },
+        "query": "Thermal Imaging Concealed Weapon Detection"
+      },
+      "JA": {
+        "data": {
+          "context": {
+            "title": "JP"
+          },
+          "items": [
+            {
+              "cacheId": "zH2OmMUXIskJ",
+              "displayLink": "www.meti.go.jp",
+              "fileFormat": "PDF/Adobe Acrobat",
+              "formattedUrl": "https://www.meti.go.jp/policy/anpo/seminer/shiryo/setsumei_anpokanri.pdf",
+              "htmlFormattedUrl": "https://www.meti.go.jp/policy/anpo/seminer/shiryo/setsumei_anpokanri.pdf",
+              "htmlSnippet": "✓ 核、ミサイル、化学兵器等大量破壊兵器の脅威は現実化。 ✓ 非国家主体（テロリスト等）<b>による</b>脅威も引き続き存在。 【中国】. ・中国の公表国防&nbsp;...",
+              "htmlTitle": "安全保障貿易管理について",
+              "kind": "customsearch#result",
+              "link": "https://www.meti.go.jp/policy/anpo/seminer/shiryo/setsumei_anpokanri.pdf",
+              "mime": "application/pdf",
+              "pagemap": {
+                "cse_image": [
+                  {
+                    "src": "x-raw-image:///272a98665da753c63b8366a9385dac7670dbd3ef97252899c02bc39336f77f2e"
+                  }
+                ],
+                "cse_thumbnail": [
+                  {
+                    "height": "184",
+                    "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQamWQ78Mf3e4wIPaRajEDvWsBvKuqFJzD6MRODyhYCFGlOnwtubWkn-Cll",
+                    "width": "273"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "creationdate": "D:20201029114657+09'00'",
+                    "creator": "PowerPoint 用 Acrobat PDFMaker 17",
+                    "moddate": "D:20201029114715+09'00'",
+                    "producer": "Adobe PDF Library 15.0"
+                  }
+                ]
+              },
+              "snippet": "✓ 核、ミサイル、化学兵器等大量破壊兵器の脅威は現実化。 ✓ 非国家主体（テロリスト等）による脅威も引き続き存在。 【中国】. ・中国の公表国防 ...",
+              "title": "安全保障貿易管理について"
+            }
+          ],
+          "kind": "customsearch#search",
+          "queries": {
+            "nextPage": [
+              {
+                "count": 1,
+                "cx": "004ef88c5b84d4fa7",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "searchTerms": "熱画像による隠し武器の検出",
+                "startIndex": 2,
+                "title": "Google Custom Search - 熱画像による隠し武器の検出",
+                "totalResults": "51700"
+              }
+            ],
+            "request": [
+              {
+                "count": 1,
+                "cx": "004ef88c5b84d4fa7",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "searchTerms": "熱画像による隠し武器の検出",
+                "startIndex": 1,
+                "title": "Google Custom Search - 熱画像による隠し武器の検出",
+                "totalResults": "51700"
+              }
+            ]
+          },
+          "searchInformation": {
+            "formattedSearchTime": "0.41",
+            "formattedTotalResults": "51,700",
+            "searchTime": 0.412875,
+            "totalResults": "51700"
+          },
+          "url": {
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+            "type": "application/json"
+          }
+        },
+        "query": "熱画像による隠し武器の検出"
+      },
+      "KO": {
+        "data": {
+          "context": {
+            "title": "KPMG"
+          },
+          "items": [
+            {
+              "cacheId": "EhKAMKQSke0J",
+              "displayLink": "measurementclub.tistory.com",
+              "formattedUrl": "https://measurementclub.tistory.com/132",
+              "htmlFormattedUrl": "https://measurementclub.tistory.com/132",
+              "htmlSnippet": "2012. 10. 23. <b>...</b> 최 박사는 “적외선 <b>열화상</b> 카메라는 <b>탐지</b>된 침입자의 얼굴까지 식별하는 수준까지 ... <b>탐지</b>적외선 <b>열화상은닉무기</b> 검출비금속성 <b>무기</b>한국원자력통제기술원&nbsp;...",
+              "htmlTitle": "꽁꽁 숨긴 <b>무기</b>와 안개 낀 날에도 원전은 안전하다",
+              "kind": "customsearch#result",
+              "link": "https://measurementclub.tistory.com/132",
+              "pagemap": {
+                "cse_image": [
+                  {
+                    "src": "https://t1.daumcdn.net/cfile/tistory/154399365089CB822B"
+                  }
+                ],
+                "cse_thumbnail": [
+                  {
+                    "height": "169",
+                    "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFwTEjye97goe0l_MVTJ1ZfaCoU-23NArpVMAvm2T8loc3rM3x6fsohx8",
+                    "width": "298"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "article:media_name": "한국표준과학연구원 측정클럽 공식블로그",
+                    "article:mobile_service_home": "https://www.tistory.com/m",
+                    "article:mobile_url": "https://measurementclub.tistory.com/m/132",
+                    "article:mobile_view_url": "https://measurementclub.tistory.com/m/132",
+                    "article:modified_time": "2012-10-29T13:20:45+09:00",
+                    "article:pc_service_home": "https://www.tistory.com",
+                    "article:pc_url": "https://measurementclub.tistory.com/132",
+                    "article:pc_view_url": "https://measurementclub.tistory.com/132",
+                    "article:published_time": "2012-10-23T14:53:55+09:00",
+                    "article:talk_channel_view_url": "https://measurementclub.tistory.com/m/132",
+                    "article:txid": "1120577_132",
+                    "by": "한국표준과학연구원 측정클럽",
+                    "dg:plink": "https://measurementclub.tistory.com/132",
+                    "format-detection": "telephone=no",
+                    "google-adsense-platform-account": "ca-host-pub-9691043933427338",
+                    "google-adsense-platform-domain": "tistory.com",
+                    "og:article:author": "한국표준과학연구원 측정클럽",
+                    "og:description": "“테러나 침입 수법이 나날이 고도화되는 상황에서 기존 침입탐지 기술과 장비로는 한계가 있습니다. 아울러 대부분의 보안장비를 외국에서 들여오는 현실 속에서 운영 및 대응능력이 떨어진다는 점도 간과할 수 없습니다. 마지막으로 해외에 원자력 발전소를 건설할 때 물리적 방호 시설까지 디자인해서 같이 진행해야 하는데 우리 독자기술로 개발한 물리적 방호 장비가 있다면 그 장비의 수출 길을 여는 셈이 되겠죠.”(김현철 한국원자력통제기술원 박사) 한국표준과학연구원(이하 표준연)이 한국원자력통제기술원(이하 KINAC)과 함께 원자력 발전소의 새로운 물리적 방호기술 개발에 나섰다. 표준연과 KINAC이 손을 잡게 된 계기는 기관장 간 교류에서부터 비롯됐다. 표준연에서 연구 중인 첨단 기술 중 KINAC의 업무와 연관해 적..",
+                    "og:image": "https://t1.daumcdn.net/cfile/tistory/154399365089CB822B",
+                    "og:regdate": "20121023145355",
+                    "og:site_name": "한국표준과학연구원 측정클럽 공식블로그",
+                    "og:title": "꽁꽁 숨긴 무기와 안개 낀 날에도 원전은 안전하다",
+                    "og:type": "article",
+                    "og:url": "https://measurementclub.tistory.com/132",
+                    "plink": "https://measurementclub.tistory.com/132",
+                    "title": "꽁꽁 숨긴 무기와 안개 낀 날에도 원전은 안전하다 :: 한국표준과학연구원 측정클럽 공식블로그",
+                    "twitter:card": "summary_large_image",
+                    "twitter:description": "“테러나 침입 수법이 나날이 고도화되는 상황에서 기존 침입탐지 기술과 장비로는 한계가 있습니다. 아울러 대부분의 보안장비를 외국에서 들여오는 현실 속에서 운영 및 대응능력이 떨어진다는 점도 간과할 수 없습니다. 마지막으로 해외에 원자력 발전소를 건설할 때 물리적 방호 시설까지 디자인해서 같이 진행해야 하는데 우리 독자기술로 개발한 물리적 방호 장비가 있다면 그 장비의 수출 길을 여는 셈이 되겠죠.”(김현철 한국원자력통제기술원 박사) 한국표준과학연구원(이하 표준연)이 한국원자력통제기술원(이하 KINAC)과 함께 원자력 발전소의 새로운 물리적 방호기술 개발에 나섰다. 표준연과 KINAC이 손을 잡게 된 계기는 기관장 간 교류에서부터 비롯됐다. 표준연에서 연구 중인 첨단 기술 중 KINAC의 업무와 연관해 적..",
+                    "twitter:image": "https://t1.daumcdn.net/cfile/tistory/154399365089CB822B",
+                    "twitter:site": "@TISTORY",
+                    "twitter:title": "꽁꽁 숨긴 무기와 안개 낀 날에도 원전은 안전하다",
+                    "viewport": "user-scalable=no, initial-scale=1.0, maximum-scale=1.0 ,minimum-scale=1.0, width=device-width, viewport-fit=cover"
+                  }
+                ]
+              },
+              "snippet": "2012. 10. 23. ... 최 박사는 “적외선 열화상 카메라는 탐지된 침입자의 얼굴까지 식별하는 수준까지 ... 탐지적외선 열화상은닉무기 검출비금속성 무기한국원자력통제기술원 ...",
+              "title": "꽁꽁 숨긴 무기와 안개 낀 날에도 원전은 안전하다"
+            }
+          ],
+          "kind": "customsearch#search",
+          "queries": {
+            "nextPage": [
+              {
+                "count": 1,
+                "cx": "b428942f354ee4fd3",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "searchTerms": "열화상 은닉 무기 탐지",
+                "startIndex": 2,
+                "title": "Google Custom Search - 열화상 은닉 무기 탐지",
+                "totalResults": "22200"
+              }
+            ],
+            "request": [
+              {
+                "count": 1,
+                "cx": "b428942f354ee4fd3",
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "searchTerms": "열화상 은닉 무기 탐지",
+                "startIndex": 1,
+                "title": "Google Custom Search - 열화상 은닉 무기 탐지",
+                "totalResults": "22200"
+              }
+            ]
+          },
+          "searchInformation": {
+            "formattedSearchTime": "0.49",
+            "formattedTotalResults": "22,200",
+            "searchTime": 0.4865,
+            "totalResults": "22200"
+          },
+          "url": {
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+            "type": "application/json"
+          }
+        },
+        "query": "열화상 은닉 무기 탐지"
+      }
+    }
+  }
+}

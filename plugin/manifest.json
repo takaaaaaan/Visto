@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Extension",
+  "version": "2.16",
+  "description": "Display 'Hello' on the right side of the page",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "identity"
+  ],
+  "background": {
+    "service_worker": "./assets/js/background.js"
+  },
+  "action": {
+    "default_icon": "./assets/img/main-logo/V3.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/*"],
+      "js": ["./assets/js/content.js"],
+      "css": ["./assets/css/styles.css"]
+    }
+  ],
+  "icons": {
+    "48": "./assets/img/main-logo/V3.png"
+  },
+  "host_permissions": ["*://www.google.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "embedded.html",
+        "./assets/js/embedded-main.js",
+        "./assets/js/embedded-DB.js",
+        "./assets/css/embedded-style.css",
+        "./assets/img/main-logo/V3.png"
+      ],
+      "matches": ["*://www.google.com/*"]
+    }
+  ]
+}
