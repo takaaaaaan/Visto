@@ -1,5 +1,7 @@
-
+![vsito](./img/Visto2.png)
 # Multilingual Search and Translation API for Google Extension
+![vsito-test](./img/kpmg_test.gif)
+
 [한국어](./docs/README.ko-kr.md) | [日本語](./docs/README.ja-jp.md)
 
 This API provides multilingual search and translation features through a Google Extension. It combines text translation using the DeepL API, retrieval of search results using Google Custom Search Engine, and data management with Firebase Firestore and Realtime Database.
@@ -59,13 +61,11 @@ This section describes the user interface of the extension. The extension includ
 
 Users can activate or deactivate each country using the toggle switch next to the country as shown in the image below. Activated countries will have their search results retrieved and stored by the API.
 
-![Country Selection Toggle](./img/popup.png)
 
 ### Search Results Interface
 
 The search results interface allows users to enter a search query and view the results returned by the API. Users can click on the search results to obtain more information.
 
-![Search Results Interface](./img/body.png)
 
 ## Inquiries
 

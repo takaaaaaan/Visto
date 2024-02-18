@@ -5,14 +5,14 @@ from firebase_admin import db
 def initialize_db():
     cred = credentials.Certificate("python/key.json")
     firebase_admin.initialize_app(cred,{
-        'databaseURL' : 'https://kpmg-39cf2-default-rtdb.firebaseio.com/'
+        'databaseURL' : 'https://your-db.com/'
     })
 
 def read_db(firebase_path):
     '''
     cred = credentials.Certificate("python-DB\serviceAccountKey.json")
     firebase_admin.initialize_app(cred,{
-        'databaseURL' : 'https://kpmg-39cf2-default-rtdb.firebaseio.com/'
+        'databaseURL' : 'https://your-db.com/'
     })
     '''
     dir = db.reference(firebase_path)    # db에 저장되어있는 경로
@@ -23,7 +23,7 @@ def update_db(firebase_path, summurized_text):
     if not firebase_admin._apps:
         cred = credentials.Certificate('python-DB\serviceAccountKey.json')
         firebase_admin.initialize_app(cred, {
-            'databaseURL' : 'https://kpmg-39cf2-default-rtdb.firebaseio.com/'
+            'databaseURL' : 'https://your-db.com/'
         })
     '''
     # 데이터 저장 또는 업데이트할 경로

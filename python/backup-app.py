@@ -13,10 +13,10 @@ import openai
 from gptsearch.totalSummurize import run
 
 # Google APIキーとCustom Search Engine IDを設定
-API_KEY = "AIzaSyCk62A_YJQxhPI7QmHt5x7BFkV3EVVLjOc"
+API_KEY = "API-KEY"
 
 # DeepL APIキー
-DEEPL_API_KEY = "c5c6b479-4fe6-7991-dba4-8cd5245d3473:fx"
+DEEPL_API_KEY = "API-KEY"
 
 app = Flask(__name__)
 
@@ -27,7 +27,7 @@ CORS(
     resources={
         r"/*": {
             "origins": [
-                "chrome-extension://nfipdalojliiiflljnldpochdhnlfilm",  # 実際の拡張機能のIDに置き換えてください
+                "chrome-extension://YOUR-ID-KEY",  # 実際の拡張機能のIDに置き換えてください
                 "http://localhost:5000",  # ローカルの開発時など、他に許可したいオリジンがあれば追加
             ]
         }
@@ -52,7 +52,7 @@ logger.addHandler(handler)
 cred = credentials.Certificate("python/key2.json")
 # cred = credentials.Certificate("python/firebase-key.json")
 firebase_app = firebase_admin.initialize_app(
-    cred, {"databaseURL": "https://kpmg-39cf2-default-rtdb.firebaseio.com/"}
+    cred, {"databaseURL": "yourdb.com"}
 )
 # FirestoreとRealtime Databaseのクライアントを取得
 firestore_db = firestore.client()

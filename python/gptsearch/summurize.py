@@ -9,7 +9,7 @@ def link_search(urls, query):
     data = loader.load()    # 페이지의 내용 불러오기
 
     client = AzureOpenAI(
-        api_key="f8ac1f51bb7b42e096cb1d08a9e1666e",
+        api_key="API-KEY",
         api_version="2023-07-01-preview",
         azure_endpoint="https://kic-2024-openai.openai.azure.com/"
     )
@@ -35,7 +35,7 @@ def link_search(urls, query):
 
 def summary_by_country(data, query):
     client = AzureOpenAI(
-        api_key="f8ac1f51bb7b42e096cb1d08a9e1666e",
+        api_key="API-KEY",
         api_version="2023-07-01-preview",
         azure_endpoint="https://kic-2024-openai.openai.azure.com/"
     )

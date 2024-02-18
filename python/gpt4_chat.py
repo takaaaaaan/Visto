@@ -2,7 +2,7 @@
 import openai
 import asyncio
 
-openai.api_key = "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"
+openai.api_key = "sk-"
 
 
 async def chat_with_gpt4(message):
