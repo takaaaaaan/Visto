@@ -2,6 +2,8 @@
 # 다국어 검색 및 번역 API for Google 확장 프로그램
 ![vsito](../img/kpmg_test.gif)
 
+https://youtu.be/jlPhVY2i200
+
 [English](../README.md) | [日本語](./README.ja-jp.md)
 
 이 API는 Google 확장 프로그램을 통해 다양한 언어로 검색 및 번역 기능을 제공합니다. DeepL API를 사용한 텍스트 번역, Google Custom Search Engine을 이용한 검색 결과 가져오기, Firebase Firestore 및 Realtime Database를 통한 데이터 관리 기능을 조합하여 제공합니다.

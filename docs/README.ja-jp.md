@@ -2,6 +2,8 @@
 # Google 拡張機能用多言語検索＆翻訳API
 ![vsito](../img/kpmg_test.gif)
 
+https://youtu.be/jlPhVY2i200
+
 [English](../README.md) | [한국어](./README.ko-kr.md)
 
 このAPIはGoogleの拡張機能を介して、多言語での検索および翻訳機能を提供します。DeepL APIを利用したテキストの翻訳、Google Custom Search Engineを活用した検索結果の取得、Firebase FirestoreおよびRealtime Databaseでのデータ管理機能を組み合わせて提供します。
